@@ -1,0 +1,6 @@
+[console_scripts]
+autonomous_node = rexrov_autonomy.autonomous_node:main
+autonomous_reset = rexrov_autonomy.autonomous_reset:main
+autopath = rexrov_autonomy.autopath:main
+near_gate_detector = rexrov_autonomy.autonomous_node:main
+

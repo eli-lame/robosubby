@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uuv_sensor_ros_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "image_sonar_ros_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_sonar_ros_plugin-9715a76dffa33dacb01e.json",
+					"name" : "image_sonar_ros_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1bb7cec37b5e5c56f822.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_base_model_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_base_model_plugin-f361d6b9e5687a049790.json",
+					"name" : "uuv_gazebo_ros_base_model_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_base_sensor_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_base_sensor_plugin-ff33cc2aa4451bdcc383.json",
+					"name" : "uuv_gazebo_ros_base_sensor_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_camera_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_camera_plugin-595b8f94a1cca7bdf4b6.json",
+					"name" : "uuv_gazebo_ros_camera_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_cpc_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_cpc_plugin-d532ba50b5a9f53dc01b.json",
+					"name" : "uuv_gazebo_ros_cpc_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_dvl_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_dvl_plugin-53d6ed8d099fcc59b76d.json",
+					"name" : "uuv_gazebo_ros_dvl_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_gps_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_gps_plugin-07efac5bba9e39f05324.json",
+					"name" : "uuv_gazebo_ros_gps_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_imu_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_imu_plugin-a255ce626ddbab3a637f.json",
+					"name" : "uuv_gazebo_ros_imu_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_magnetometer_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_magnetometer_plugin-aee00fbfe790d4dccc22.json",
+					"name" : "uuv_gazebo_ros_magnetometer_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_pose_gt_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_pose_gt_plugin-9aa318a251a0def45aa3.json",
+					"name" : "uuv_gazebo_ros_pose_gt_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_rpt_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_rpt_plugin-98f89709591fd9280513.json",
+					"name" : "uuv_gazebo_ros_rpt_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_subsea_pressure_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_subsea_pressure_plugin-09f81bdd9333eeda1678.json",
+					"name" : "uuv_gazebo_ros_subsea_pressure_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_gazebo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_gazebo_msgs-129b47beb90b1e8b9885.json",
+					"name" : "uuv_sensor_gazebo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_sensor_ros_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_sensor_ros_plugins_uninstall-aae51b5ecef88c2e39fe.json",
+					"name" : "uuv_sensor_ros_plugins_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/osansubuntumachine/ros2_ws/build/uuv_sensor_ros_plugins",
+		"source" : "/home/osansubuntumachine/ros2_ws/src/Plankton/uuv_sensor_plugins/uuv_sensor_ros_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

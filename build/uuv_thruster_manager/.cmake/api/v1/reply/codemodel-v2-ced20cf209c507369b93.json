@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "uuv_thruster_manager__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager/uuv_thruster_manager__py",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "uuv_thruster_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-67708722cafe242c6793.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager-6e682276549da5a0066f.json",
+					"name" : "uuv_thruster_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__cpp-4da24111786dc7c7c2c1.json",
+					"name" : "uuv_thruster_manager__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uuv_thruster_manager__py::@a05ac16341c317654e04",
+					"jsonFile" : "target-uuv_thruster_manager__py-2f50ea4030e7de9a1d29.json",
+					"name" : "uuv_thruster_manager__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__python-fd6f553c8a31c4ee4044.json",
+					"name" : "uuv_thruster_manager__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_generator_c-ed8057bb9db4f2921e8e.json",
+					"name" : "uuv_thruster_manager__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_c-20e6fd5b52301a5e005a.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_c__pyext-39ae09c1e565737dff52.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_cpp-dbe79b560290b9eea112.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_fastrtps_c-c981d41fc74056f9fbb3.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_fastrtps_c__pyext-9798bb8d9de9a587be65.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp-488e9b24f52a2ed90d53.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_introspection_c-5525d048c989e061f437.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_introspection_c__pyext-34a3912dee7a6b285767.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager__rosidl_typesupport_introspection_cpp-5d4bd69e695794630c15.json",
+					"name" : "uuv_thruster_manager__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_thruster_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_thruster_manager_uninstall-3b46715ec0e372c7f4c1.json",
+					"name" : "uuv_thruster_manager_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager",
+		"source" : "/home/osansubuntumachine/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

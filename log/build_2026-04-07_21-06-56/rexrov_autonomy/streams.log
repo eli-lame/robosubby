@@ -1,0 +1,26 @@
+[1.575s] Invoking command in '/home/osansubuntumachine/ros2_ws/src/rexrov_autonomy': PYTHONPATH=/home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rexrov_autonomy build --build-base /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build install --record /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/install.log --install-scripts $base/lib/rexrov_autonomy --single-version-externally-managed install_data
+[2.165s] running egg_info
+[2.166s] writing ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/PKG-INFO
+[2.171s] writing dependency_links to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/dependency_links.txt
+[2.171s] writing entry points to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/entry_points.txt
+[2.172s] writing requirements to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/requires.txt
+[2.172s] writing top-level names to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/top_level.txt
+[2.232s] reading manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+[2.236s] writing manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+[2.236s] running build
+[2.236s] running build_py
+[2.236s] copying rexrov_autonomy/autopath.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[2.236s] running install
+[2.240s] running install_lib
+[2.243s] copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/autopath.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[2.246s] byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/autopath.py to autopath.cpython-38.pyc
+[2.252s] running install_data
+[2.252s] running install_egg_info
+[2.252s] removing '/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy-0.0.0-py3.8.egg-info' (and everything under it)
+[2.264s] Copying ../../build/rexrov_autonomy/rexrov_autonomy.egg-info to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy-0.0.0-py3.8.egg-info
+[2.266s] running install_scripts
+[2.320s] Installing autonomous_node script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+[2.320s] Installing autonomous_reset script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+[2.320s] Installing autopath script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+[2.320s] writing list of installed files to '/home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/install.log'
+[2.362s] Invoked command in '/home/osansubuntumachine/ros2_ws/src/rexrov_autonomy' returned '0': PYTHONPATH=/home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rexrov_autonomy build --build-base /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build install --record /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/install.log --install-scripts $base/lib/rexrov_autonomy --single-version-externally-managed install_data

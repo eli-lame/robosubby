@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "uuv_gazebo_ros_plugins_msgs__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_ros_plugins_msgs/uuv_gazebo_ros_plugins_msgs__py",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "uuv_gazebo_ros_plugins_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-96813b2e2fbfa55800fc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs-d73d0ad0ac4dce4dfbb6.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__cpp-6f1aff06435c346b2770.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uuv_gazebo_ros_plugins_msgs__py::@ceecece9fc655ad7e6fb",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__py-b33f839f17aa7a686d36.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__python-042a180ecb756ca5ec92.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_generator_c-ed3b219f0d850531f98d.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c-a63dbf388d2492be4fae.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c__pyext-e678293af484e79bd972.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_cpp-3b00351296b3c53a1b62.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c-7a078fc6881dab9d4f59.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext-0c89a3b9f7d0466d7be8.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp-9a2725ba4bf5e50364b2.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c-37c3cf1666dc8842143a.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext-2fe8efe48369e8481281.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_cpp-fe6c7888ab719425d35e.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uuv_gazebo_ros_plugins_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uuv_gazebo_ros_plugins_msgs_uninstall-489d2e06aeb55289a531.json",
+					"name" : "uuv_gazebo_ros_plugins_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_ros_plugins_msgs",
+		"source" : "/home/osansubuntumachine/ros2_ws/src/Plankton/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

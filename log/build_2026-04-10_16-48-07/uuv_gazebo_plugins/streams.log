@@ -1,0 +1,114 @@
+[0.052s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy:/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins -- -j4 -l4
+[0.215s] [  7%] Built target gtest
+[0.239s] [ 14%] Built target uuv_dynamics
+[0.263s] [ 32%] Built target uuv_gazebo_plugins_msgs
+[0.296s] [ 39%] Built target gtest_main
+[0.334s] [ 53%] Built target uuv_underwater_object_plugin
+[0.403s] [ 64%] Built target uuv_fin_plugin
+[0.414s] [ 75%] Built target umbilical_plugin
+[0.428s] [ 85%] Built target uuv_thruster_plugin
+[0.441s] [ 92%] Built target UNIT_ThrusterDynamics_TEST
+[0.484s] [100%] Built target UNIT_ThrusterConversionFcn_TEST
+[0.497s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy:/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins -- -j4 -l4
+[0.500s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy:/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins
+[0.518s] -- Install configuration: ""
+[0.518s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/lib/libuuv_gazebo_plugins_msgs.so
+[0.519s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/lib/libuuv_dynamics.so
+[0.519s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/lib/libuuv_fin_plugin.so
+[0.519s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/lib/libuuv_underwater_object_plugin.so
+[0.520s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/lib/libuuv_thruster_plugin.so
+[0.520s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/lib/libumbilical_plugin.so
+[0.521s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins
+[0.521s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterPlugin.h
+[0.521s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/BuoyantObject.h
+[0.521s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Def.h
+[0.521s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/HydrodynamicModel.h
+[0.521s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.h
+[0.521s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.h
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.h
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.h
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.h
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UnderwaterObjectPlugin.h
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalPlugin.h
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Accel.pb.h
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_uninstall_target
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_export_include_directories
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index
+[0.522s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share
+[0.523s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index
+[0.523s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index
+[0.523s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+[0.523s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/packages
+[0.523s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+[0.524s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest
+[0.524s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles
+[0.524s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest_main.dir
+[0.524s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest_main.dir/src
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest.dir
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/gtest/CMakeFiles/gtest.dir/src
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_core
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_core/stamps
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Double.pb.h
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/msgs
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_export_libraries
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterDynamics_TEST.dir
+[0.525s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterDynamics_TEST.dir/src
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_fin_plugin.dir
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_fin_plugin.dir/src
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uninstall.dir
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.16.3
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdC/tmp
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/3.16.3/CompilerIdCXX/tmp
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_thruster_plugin.dir
+[0.526s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_thruster_plugin.dir/src
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_uninstall.dir
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/umbilical_plugin.dir
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/umbilical_plugin.dir/src
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_underwater_object_plugin.dir/src
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Accel.pb.cc.o
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_gazebo_plugins_msgs.dir/Double.pb.cc.o
+[0.527s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterConversionFcn_TEST.dir
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/UNIT_ThrusterConversionFcn_TEST.dir/src
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/CMakeTmp
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_dynamics.dir
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/CMakeFiles/uuv_dynamics.dir/src
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_export_dependencies
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Accel.pb.cc
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_package_templates
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/.cmake
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/.cmake/api
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/.cmake/api/v1
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/.cmake/api/v1/reply
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/.cmake/api/v1/query
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/.cmake/api/v1/query/client-colcon-cmake
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Double.pb.cc
+[0.528s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ament_cmake_environment_hooks
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/library_path.sh
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/library_path.dsv
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/uuv_gazebo_plugins
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/uuv_gazebo_plugins
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/ament_prefix_path.dsv
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/path.sh
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/environment/path.dsv
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.bash
+[0.529s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.sh
+[0.530s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.zsh
+[0.530s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/local_setup.dsv
+[0.530s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/package.dsv
+[0.530s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/ament_index/resource_index/packages/uuv_gazebo_plugins
+[0.530s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.530s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.530s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[0.530s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/uuv_gazebo_pluginsConfig.cmake
+[0.531s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/cmake/uuv_gazebo_pluginsConfig-version.cmake
+[0.531s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_plugins/share/uuv_gazebo_plugins/package.xml
+[0.534s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy:/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_plugins

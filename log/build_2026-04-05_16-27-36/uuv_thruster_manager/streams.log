@@ -1,0 +1,346 @@
+[0.017s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager
+[0.065s] -- The C compiler identification is GNU 9.4.0
+[0.109s] -- The CXX compiler identification is GNU 9.4.0
+[0.112s] -- Check for working C compiler: /usr/bin/cc
+[0.168s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.169s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.231s] -- Detecting C compile features
+[0.232s] -- Detecting C compile features - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.298s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.372s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.391s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.391s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.565s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.635s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.655s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.750s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.775s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.915s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.049s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.118s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.119s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.139s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.139s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.139s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.155s] -- Found PythonExtra: .so  
+[1.203s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[1.204s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[1.223s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.223s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.223s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.567s] -- Configuring done
+[1.612s] -- Generating done
+[1.622s] -- Build files have been written to: /home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager
+[1.630s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager
+[1.631s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager -- -j2 -l2
+[1.672s] [35m[1mScanning dependencies of target uuv_thruster_manager__cpp[0m
+[1.680s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.121s] [  1%] Built target uuv_thruster_manager__cpp
+[2.129s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.590s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_generator_c[0m
+[2.600s] [  5%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_generator_c.dir/rosidl_generator_c/uuv_thruster_manager/srv/detail/get_thruster_curve__functions.c.o[0m
+[2.646s] [  7%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_generator_c.dir/rosidl_generator_c/uuv_thruster_manager/srv/detail/thruster_manager_info__functions.c.o[0m
+[2.705s] [  9%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_generator_c.dir/rosidl_generator_c/uuv_thruster_manager/srv/detail/set_thruster_manager_config__functions.c.o[0m
+[2.751s] [ 10%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_generator_c.dir/rosidl_generator_c/uuv_thruster_manager/srv/detail/get_thruster_manager_config__functions.c.o[0m
+[2.798s] [ 12%] [32m[1mLinking C shared library libuuv_thruster_manager__rosidl_generator_c.so[0m
+[2.830s] [ 12%] Built target uuv_thruster_manager__rosidl_generator_c
+[2.838s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.120s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_cpp[0m
+[3.131s] [ 16%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_thruster_manager/srv/get_thruster_curve__type_support.cpp.o[0m
+[3.327s] [ 18%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_thruster_manager/srv/thruster_manager_info__type_support.cpp.o[0m
+[3.512s] [ 20%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_thruster_manager/srv/set_thruster_manager_config__type_support.cpp.o[0m
+[3.698s] [ 21%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uuv_thruster_manager/srv/get_thruster_manager_config__type_support.cpp.o[0m
+[3.883s] [ 23%] [32m[1mLinking CXX shared library libuuv_thruster_manager__rosidl_typesupport_cpp.so[0m
+[3.919s] [ 23%] Built target uuv_thruster_manager__rosidl_typesupport_cpp
+[3.927s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.293s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp[0m
+[4.311s] [ 27%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_thruster_manager/srv/detail/dds_fastrtps/get_thruster_curve__type_support.cpp.o[0m
+[4.620s] [ 29%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_thruster_manager/srv/detail/dds_fastrtps/thruster_manager_info__type_support.cpp.o[0m
+[4.934s] [ 30%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_thruster_manager/srv/detail/dds_fastrtps/set_thruster_manager_config__type_support.cpp.o[0m
+[5.224s] [ 32%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uuv_thruster_manager/srv/detail/dds_fastrtps/get_thruster_manager_config__type_support.cpp.o[0m
+[5.537s] [ 34%] [32m[1mLinking CXX shared library libuuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.607s] [ 34%] Built target uuv_thruster_manager__rosidl_typesupport_fastrtps_cpp
+[5.616s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.955s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_introspection_c[0m
+[5.966s] [ 38%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.c.o[0m
+[5.995s] [ 40%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.c.o[0m
+[6.023s] [ 41%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.c.o[0m
+[6.053s] [ 43%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.c.o[0m
+[6.082s] [ 45%] [32m[1mLinking C shared library libuuv_thruster_manager__rosidl_typesupport_introspection_c.so[0m
+[6.111s] [ 45%] Built target uuv_thruster_manager__rosidl_typesupport_introspection_c
+[6.119s] [ 47%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.395s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_c[0m
+[6.407s] [ 49%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_thruster_manager/srv/get_thruster_curve__type_support.cpp.o[0m
+[6.433s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_thruster_manager/srv/thruster_manager_info__type_support.cpp.o[0m
+[6.460s] [ 52%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_thruster_manager/srv/set_thruster_manager_config__type_support.cpp.o[0m
+[6.486s] [ 54%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/uuv_thruster_manager/srv/get_thruster_manager_config__type_support.cpp.o[0m
+[6.514s] [ 56%] [32m[1mLinking CXX shared library libuuv_thruster_manager__rosidl_typesupport_c.so[0m
+[6.549s] [ 56%] Built target uuv_thruster_manager__rosidl_typesupport_c
+[6.559s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.899s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_introspection_cpp[0m
+[6.911s] [ 60%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.cpp.o[0m
+[7.131s] [ 61%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.cpp.o[0m
+[7.351s] [ 63%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.cpp.o[0m
+[7.543s] [ 65%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.cpp.o[0m
+[7.769s] [ 67%] [32m[1mLinking CXX shared library libuuv_thruster_manager__rosidl_typesupport_introspection_cpp.so[0m
+[7.828s] [ 67%] Built target uuv_thruster_manager__rosidl_typesupport_introspection_cpp
+[7.838s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.203s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_fastrtps_c[0m
+[8.224s] [ 70%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support_c.cpp.o[0m
+[8.463s] [ 72%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support_c.cpp.o[0m
+[8.716s] [ 74%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support_c.cpp.o[0m
+[8.963s] [ 76%] [32mBuilding CXX object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support_c.cpp.o[0m
+[9.218s] [ 78%] [32m[1mLinking CXX shared library libuuv_thruster_manager__rosidl_typesupport_fastrtps_c.so[0m
+[9.287s] [ 78%] Built target uuv_thruster_manager__rosidl_typesupport_fastrtps_c
+[9.296s] [35m[1mScanning dependencies of target uuv_thruster_manager[0m
+[9.305s] [ 78%] Built target uuv_thruster_manager
+[9.314s] [35m[1mScanning dependencies of target uuv_thruster_manager__py[0m
+[9.323s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.054s] [ 80%] Built target uuv_thruster_manager__py
+[10.063s] [35m[1mScanning dependencies of target uuv_thruster_manager__python[0m
+[10.086s] [ 81%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__python.dir/rosidl_generator_py/uuv_thruster_manager/srv/_get_thruster_curve_s.c.o[0m
+[10.169s] [ 83%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__python.dir/rosidl_generator_py/uuv_thruster_manager/srv/_thruster_manager_info_s.c.o[0m
+[10.247s] [ 85%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__python.dir/rosidl_generator_py/uuv_thruster_manager/srv/_set_thruster_manager_config_s.c.o[0m
+[10.322s] [ 87%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__python.dir/rosidl_generator_py/uuv_thruster_manager/srv/_get_thruster_manager_config_s.c.o[0m
+[10.402s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/uuv_thruster_manager/libuuv_thruster_manager__python.so[0m
+[10.444s] [ 89%] Built target uuv_thruster_manager__python
+[10.453s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_introspection_c__pyext[0m
+[10.472s] [ 90%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uuv_thruster_manager/_uuv_thruster_manager_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.551s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.584s] [ 92%] Built target uuv_thruster_manager__rosidl_typesupport_introspection_c__pyext
+[10.593s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.612s] [ 94%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uuv_thruster_manager/_uuv_thruster_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.691s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.749s] [ 96%] Built target uuv_thruster_manager__rosidl_typesupport_fastrtps_c__pyext
+[10.757s] [35m[1mScanning dependencies of target uuv_thruster_manager__rosidl_typesupport_c__pyext[0m
+[10.776s] [ 98%] [32mBuilding C object CMakeFiles/uuv_thruster_manager__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uuv_thruster_manager/_uuv_thruster_manager_s.ep.rosidl_typesupport_c.c.o[0m
+[10.861s] [100%] [32m[1mLinking C shared library rosidl_generator_py/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.896s] [100%] Built target uuv_thruster_manager__rosidl_typesupport_c__pyext
+[10.907s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager -- -j2 -l2
+[10.908s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager
+[10.916s] -- Install configuration: ""
+[10.917s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/ament_index/resource_index/rosidl_interfaces/uuv_thruster_manager
+[10.917s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager
+[10.917s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg
+[10.917s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg/rosidl_generator_c__visibility_control.h
+[10.918s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv
+[10.918s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/set_thruster_manager_config.h
+[10.918s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/thruster_manager_info.h
+[10.918s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/get_thruster_curve.h
+[10.918s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/get_thruster_manager_config.h
+[10.919s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail
+[10.919s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.h
+[10.919s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__struct.h
+[10.919s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__functions.c
+[10.919s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__struct.h
+[10.919s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.h
+[10.920s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__functions.c
+[10.920s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__functions.h
+[10.920s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.h
+[10.920s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__struct.h
+[10.920s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__functions.c
+[10.921s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__functions.h
+[10.921s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.h
+[10.921s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__functions.c
+[10.921s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__functions.h
+[10.921s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__struct.h
+[10.921s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__functions.h
+[10.922s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/library_path.sh
+[10.922s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/library_path.dsv
+[10.922s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_generator_c.so
+[10.923s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_generator_c.so" to ""
+[10.923s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager
+[10.923s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg
+[10.923s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.923s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv
+[10.923s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail
+[10.924s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_fastrtps_c.h
+[10.924s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_fastrtps_c.h
+[10.924s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_fastrtps_c.h
+[10.924s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_fastrtps_c.h
+[10.924s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_fastrtps_c.so
+[10.925s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_fastrtps_c.so" to ""
+[10.925s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager
+[10.925s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg
+[10.925s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.926s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv
+[10.926s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail
+[10.926s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_fastrtps_cpp.hpp
+[10.926s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_fastrtps_cpp.hpp
+[10.926s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_fastrtps_cpp.hpp
+[10.926s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/dds_fastrtps
+[10.927s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_fastrtps_cpp.hpp
+[10.927s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.so
+[10.928s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.928s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager
+[10.928s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg
+[10.928s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.928s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv
+[10.928s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail
+[10.928s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_introspection_c.h
+[10.929s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.c
+[10.929s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.c
+[10.929s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.c
+[10.929s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_introspection_c.h
+[10.929s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_introspection_c.h
+[10.930s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_introspection_c.h
+[10.930s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.c
+[10.930s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_introspection_c.so
+[10.931s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_introspection_c.so" to ""
+[10.931s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_c.so
+[10.931s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_c.so" to ""
+[10.931s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager
+[10.932s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg
+[10.932s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.932s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv
+[10.932s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/thruster_manager_info.hpp
+[10.932s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/set_thruster_manager_config.hpp
+[10.932s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/get_thruster_curve.hpp
+[10.932s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/get_thruster_manager_config.hpp
+[10.933s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail
+[10.933s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__traits.hpp
+[10.933s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__struct.hpp
+[10.933s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__struct.hpp
+[10.933s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.hpp
+[10.933s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.hpp
+[10.934s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.hpp
+[10.934s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__builder.hpp
+[10.934s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__builder.hpp
+[10.934s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.hpp
+[10.934s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__traits.hpp
+[10.934s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__struct.hpp
+[10.935s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__struct.hpp
+[10.935s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__builder.hpp
+[10.935s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__traits.hpp
+[10.935s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__builder.hpp
+[10.935s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__traits.hpp
+[10.935s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager
+[10.936s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv
+[10.936s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail
+[10.936s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__type_support.cpp
+[10.936s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/set_thruster_manager_config__rosidl_typesupport_introspection_cpp.hpp
+[10.936s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__type_support.cpp
+[10.936s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__rosidl_typesupport_introspection_cpp.hpp
+[10.937s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__type_support.cpp
+[10.937s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_manager_config__rosidl_typesupport_introspection_cpp.hpp
+[10.937s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/thruster_manager_info__type_support.cpp
+[10.937s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/include/uuv_thruster_manager/srv/detail/get_thruster_curve__rosidl_typesupport_introspection_cpp.hpp
+[10.937s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_introspection_cpp.so
+[10.938s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_introspection_cpp.so" to ""
+[10.938s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_cpp.so
+[10.939s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__rosidl_typesupport_cpp.so" to ""
+[10.939s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/pythonpath.sh
+[10.939s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/pythonpath.dsv
+[10.939s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/__init__.py
+[10.963s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/__init__.py'...
+[10.966s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv
+[10.966s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_get_thruster_manager_config.py
+[10.966s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_thruster_manager_info.py
+[10.966s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/__init__.py
+[10.966s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_get_thruster_curve.py
+[10.967s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_get_thruster_manager_config_s.c
+[10.967s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_thruster_manager_info_s.c
+[10.967s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_set_thruster_manager_config.py
+[10.967s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_set_thruster_manager_config_s.c
+[10.967s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/srv/_get_thruster_curve_s.c
+[10.968s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[10.968s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.969s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[10.969s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.970s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[10.971s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thruster_manager/uuv_thruster_manager_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.971s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__python.so
+[10.971s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/libuuv_thruster_manager__python.so" to ""
+[10.972s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve.idl
+[10.972s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo.idl
+[10.972s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig.idl
+[10.972s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig.idl
+[10.973s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve.srv
+[10.973s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve_Request.msg
+[10.973s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterCurve_Response.msg
+[10.974s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo.srv
+[10.974s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo_Request.msg
+[10.974s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/ThrusterManagerInfo_Response.msg
+[10.974s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig.srv
+[10.975s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig_Request.msg
+[10.975s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/SetThrusterManagerConfig_Response.msg
+[10.975s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig.srv
+[10.975s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig_Request.msg
+[10.975s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/srv/GetThrusterManagerConfig_Response.msg
+[10.976s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters
+[10.976s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models
+[10.976s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/thruster_proportional.py
+[10.976s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/thruster_custom.py
+[10.976s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/__init__.py
+[10.976s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/thruster.py
+[10.977s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/__init__.py
+[10.977s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/thruster_manager.py
+[11.004s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters'...
+[11.004s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/__init__.py'...
+[11.004s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models'...
+[11.004s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/__init__.py'...
+[11.004s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/thruster.py'...
+[11.004s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/thruster_custom.py'...
+[11.004s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/models/thruster_proportional.py'...
+[11.004s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters/thruster_manager.py'...
+[11.007s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models
+[11.007s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/thruster_proportional.py
+[11.008s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/thruster_custom.py
+[11.008s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/__init__.py
+[11.008s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/thruster.py
+[11.033s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models'...
+[11.033s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/__init__.py'...
+[11.033s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/thruster.py'...
+[11.033s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/thruster_custom.py'...
+[11.033s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/python3.8/site-packages/uuv_thrusters.models/thruster_proportional.py'...
+[11.038s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/lib/uuv_thruster_manager/thruster_allocator.py
+[11.038s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/launch
+[11.038s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/launch/thruster_manager.launch
+[11.038s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config
+[11.038s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config/rexrov
+[11.039s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config/rexrov/thruster_manager.yaml
+[11.039s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/config/rexrov/TAM.yaml
+[11.039s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/ament_index/resource_index/package_run_dependencies/uuv_thruster_manager
+[11.039s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/ament_index/resource_index/parent_prefix_path/uuv_thruster_manager
+[11.039s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/ament_prefix_path.sh
+[11.040s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/ament_prefix_path.dsv
+[11.040s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/path.sh
+[11.040s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/environment/path.dsv
+[11.040s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.bash
+[11.041s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.sh
+[11.041s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.zsh
+[11.041s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/local_setup.dsv
+[11.041s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/package.dsv
+[11.041s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/ament_index/resource_index/packages/uuv_thruster_manager
+[11.042s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_generator_cExport.cmake
+[11.042s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_generator_cExport-noconfig.cmake
+[11.042s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cExport.cmake
+[11.042s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.043s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cExport.cmake
+[11.043s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cExport-noconfig.cmake
+[11.043s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_generator_cppExport.cmake
+[11.043s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cppExport.cmake
+[11.044s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.044s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cppExport.cmake
+[11.044s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_manager__rosidl_typesupport_cppExport-noconfig.cmake
+[11.044s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/rosidl_cmake-extras.cmake
+[11.044s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.045s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[11.045s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_targets-extras.cmake
+[11.045s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.045s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.045s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.046s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_managerConfig.cmake
+[11.046s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/cmake/uuv_thruster_managerConfig-version.cmake
+[11.046s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_thruster_manager/share/uuv_thruster_manager/package.xml
+[11.055s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_ros_plugins_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager

@@ -1,0 +1,129 @@
+[0.170s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator -- -j4 -l4
+[0.387s] [  9%] Built target uuv_auv_control_allocator__rosidl_generator_c
+[0.409s] [ 12%] Built target uuv_auv_control_allocator__cpp
+[0.502s] [ 22%] Built target uuv_auv_control_allocator__rosidl_typesupport_introspection_c
+[0.502s] [ 32%] Built target uuv_auv_control_allocator__rosidl_typesupport_introspection_cpp
+[0.523s] [ 41%] Built target uuv_auv_control_allocator__rosidl_typesupport_c
+[0.558s] [ 51%] Built target uuv_auv_control_allocator__rosidl_typesupport_cpp
+[0.568s] [ 61%] Built target uuv_auv_control_allocator__rosidl_typesupport_fastrtps_cpp
+[0.652s] [ 70%] Built target uuv_auv_control_allocator__rosidl_typesupport_fastrtps_c
+[0.716s] [ 70%] Built target uuv_auv_control_allocator
+[0.790s] [ 74%] Built target uuv_auv_control_allocator__py
+[0.926s] [ 80%] Built target uuv_auv_control_allocator__python
+[1.012s] [ 87%] Built target uuv_auv_control_allocator__rosidl_typesupport_c__pyext
+[1.023s] [ 93%] Built target uuv_auv_control_allocator__rosidl_typesupport_fastrtps_c__pyext
+[1.042s] [100%] Built target uuv_auv_control_allocator__rosidl_typesupport_introspection_c__pyext
+[1.300s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator -- -j4 -l4
+[1.301s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator
+[1.329s] -- Install configuration: ""
+[1.329s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/rosidl_interfaces/uuv_auv_control_allocator
+[1.329s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/auv_command.h
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/rosidl_generator_c__visibility_control.h
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__struct.h
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__type_support.h
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__functions.h
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__functions.c
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/library_path.sh
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/library_path.dsv
+[1.330s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_generator_c.so
+[1.340s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator
+[1.340s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg
+[1.341s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.341s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail
+[1.341s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_fastrtps_c.h
+[1.352s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_fastrtps_c.so
+[1.352s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator
+[1.352s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg
+[1.352s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.352s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail
+[1.352s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/dds_fastrtps
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_fastrtps_cpp.so
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_introspection_c.h
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__type_support.c
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_introspection_c.so
+[1.353s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_c.so
+[1.366s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator
+[1.366s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg
+[1.366s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/auv_command.hpp
+[1.366s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__traits.hpp
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__struct.hpp
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__type_support.hpp
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__builder.hpp
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__type_support.cpp
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/include/uuv_auv_control_allocator/msg/detail/auv_command__rosidl_typesupport_introspection_cpp.hpp
+[1.367s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_introspection_cpp.so
+[1.376s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__rosidl_typesupport_cpp.so
+[1.376s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/pythonpath.sh
+[1.376s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/pythonpath.dsv
+[1.377s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/__init__.py
+[1.473s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/msg
+[1.473s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/msg/_auv_command.py
+[1.473s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/msg/__init__.py
+[1.473s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/msg/_auv_command_s.c
+[1.473s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.474s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.474s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_control_allocator/uuv_auv_control_allocator_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.474s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/libuuv_auv_control_allocator__python.so
+[1.474s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/msg/AUVCommand.idl
+[1.474s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/msg/AUVCommand.msg
+[1.475s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_actuator_interface
+[1.475s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_actuator_interface/fin_model.py
+[1.475s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_actuator_interface/__init__.py
+[1.475s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_actuator_interface/actuator_manager.py
+[1.553s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_actuator_interface'...
+[1.554s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_actuator_interface/actuator_manager.py'...
+[1.554s] ***   File "/home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/python3.8/site-packages/uuv_auv_actuator_interface/actuator_manager.py", line 237
+[1.554s]     def build_topic_name(self, namespace, topic_prefix, id, topic_prefix):
+[1.555s]     ^
+[1.555s] SyntaxError: duplicate argument 'topic_prefix' in function definition
+[1.555s] 
+[1.556s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/launch
+[1.556s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/launch/start_control_allocator.launch
+[1.556s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/lib/uuv_auv_control_allocator/control_allocator
+[1.557s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/package_run_dependencies/uuv_auv_control_allocator
+[1.557s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/parent_prefix_path/uuv_auv_control_allocator
+[1.557s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/ament_prefix_path.sh
+[1.557s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/ament_prefix_path.dsv
+[1.558s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/path.sh
+[1.558s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/environment/path.dsv
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.bash
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.sh
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.zsh
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/local_setup.dsv
+[1.559s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/package.dsv
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/ament_index/resource_index/packages/uuv_auv_control_allocator
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_generator_cExport.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_generator_cExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cExport.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cExport.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_generator_cppExport.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cppExport.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cppExport.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocator__rosidl_typesupport_cppExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/rosidl_cmake-extras.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_libraries-extras.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_targets-extras.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocatorConfig.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/cmake/uuv_auv_control_allocatorConfig-version.cmake
+[1.560s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_auv_control_allocator/share/uuv_auv_control_allocator/package.xml
+[1.561s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_auv_control_allocator

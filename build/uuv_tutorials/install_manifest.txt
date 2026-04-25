@@ -1,0 +1,15 @@
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/ament_index/resource_index/package_run_dependencies/uuv_tutorials
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/ament_index/resource_index/parent_prefix_path/uuv_tutorials
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/ament_prefix_path.sh
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/ament_prefix_path.dsv
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/path.sh
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/environment/path.dsv
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.bash
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.sh
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.zsh
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/local_setup.dsv
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/package.dsv
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/ament_index/resource_index/packages/uuv_tutorials
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/cmake/uuv_tutorialsConfig.cmake
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/cmake/uuv_tutorialsConfig-version.cmake
+/home/osansubuntumachine/ros2_ws/install/uuv_tutorials/share/uuv_tutorials/package.xml

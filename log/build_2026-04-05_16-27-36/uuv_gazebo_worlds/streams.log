@@ -1,0 +1,297 @@
+[0.009s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds
+[0.071s] -- The C compiler identification is GNU 9.4.0
+[0.119s] -- The CXX compiler identification is GNU 9.4.0
+[0.121s] -- Check for working C compiler: /usr/bin/cc
+[0.179s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.179s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.242s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.313s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Detecting CXX compile features
+[0.388s] -- Detecting CXX compile features - done
+[0.390s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.407s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.408s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.588s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.653s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.672s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.770s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.773s] -- Looking for pthread.h
+[0.832s] -- Looking for pthread.h - found
+[0.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.893s] -- Looking for pthread_create in pthreads
+[0.942s] -- Looking for pthread_create in pthreads - not found
+[0.943s] -- Looking for pthread_create in pthread
+[1.002s] -- Looking for pthread_create in pthread - found
+[1.004s] -- Found Threads: TRUE  
+[1.126s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.127s] -- Checking for module 'bullet>=2.82'
+[1.140s] --   Found bullet, version 2.88
+[1.237s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.290s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.339s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.354s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.373s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.386s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.390s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.395s] -- Searching for dependencies of ignition-math6
+[1.396s] -- Looking for OGRE...
+[1.397s] -- OGRE_PREFIX_WATCH changed.
+[1.401s] -- Checking for module 'OGRE'
+[1.415s] --   Found OGRE, version 1.9.0
+[1.449s] -- Found Ogre Ghadamon (1.9.0)
+[1.455s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.463s] -- Looking for OGRE_Paging...
+[1.467s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.467s] -- Looking for OGRE_Terrain...
+[1.470s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.471s] -- Looking for OGRE_Property...
+[1.474s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.474s] -- Looking for OGRE_RTShaderSystem...
+[1.478s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.478s] -- Looking for OGRE_Volume...
+[1.482s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.482s] -- Looking for OGRE_Overlay...
+[1.486s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.575s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.576s] -- Looking for ignition-transport8 -- found version 8.5.1
+[1.577s] -- Searching for dependencies of ignition-transport8
+[1.596s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.600s] -- Checking for module 'libzmq >= 4'
+[1.614s] --   Found libzmq , version 4.3.2
+[1.649s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.654s] -- Checking for module 'uuid'
+[1.668s] --   Found uuid, version 2.34.0
+[1.701s] -- Found UUID: TRUE  
+[1.703s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[1.704s] -- Searching for dependencies of ignition-msgs5
+[1.718s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.722s] -- Checking for module 'tinyxml2'
+[1.736s] --   Found tinyxml2, version 6.2.0
+[1.773s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[1.775s] -- Looking for ignition-common3 -- found version 3.17.1
+[1.775s] -- Searching for dependencies of ignition-common3
+[1.776s] -- Looking for dlfcn.h - found
+[1.776s] -- Looking for libdl - found
+[1.778s] -- Found DL: TRUE  
+[1.786s] -- Searching for <ignition-common3> component [graphics]
+[1.787s] -- Looking for ignition-common3-graphics -- found version 3.17.1
+[1.788s] -- Searching for dependencies of ignition-common3-graphics
+[1.788s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.790s] -- Looking for ignition-fuel_tools4 -- found version 4.9.2
+[1.790s] -- Searching for dependencies of ignition-fuel_tools4
+[1.860s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.867s] -- Checking for module 'jsoncpp'
+[1.880s] --   Found jsoncpp, version 1.7.4
+[1.916s] -- Found JSONCPP: TRUE  
+[1.921s] -- Checking for module 'libzip'
+[1.934s] --   Found libzip, version 1.5.1
+[1.971s] -- Found ZIP: TRUE  
+[1.972s] -- Looking for ignition-common3 -- found version 3.17.1
+[1.972s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.973s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[1.974s] -- Gazebo version: 11.15
+[2.025s] -- Configuring done
+[2.028s] -- Generating done
+[2.030s] -- Build files have been written to: /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds
+[2.041s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds
+[2.041s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds -- -j2 -l2
+[2.085s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds -- -j2 -l2
+[2.086s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds
+[2.095s] -- Install configuration: ""
+[2.095s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config
+[2.095s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/empty_uw_world.yaml
+[2.096s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/auv_underwater_world.yaml
+[2.096s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/mangalia.yaml
+[2.096s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/herkules_ship_wreck.yaml
+[2.096s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/munkholmen.yaml
+[2.096s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/ocean_waves.yaml
+[2.096s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/config/lake.yaml
+[2.097s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch
+[2.097s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/empty_underwater_world.launch
+[2.097s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/lake.launch
+[2.097s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/munkholmen.launch
+[2.097s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/mangalia_manipulation.launch
+[2.097s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/herkules_ship_wreck.launch
+[2.098s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/mangalia.launch
+[2.098s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/rov_bop_panel.launch
+[2.098s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/ocean_waves.launch
+[2.098s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/auv_underwater_world.launch
+[2.098s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/launch/subsea_bop_panel.launch
+[2.098s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media
+[2.099s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/models
+[2.099s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/models/sea_surface_1000m_x_1000m.dae
+[2.099s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials
+[2.100s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures
+[2.100s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials
+[2.100s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/License and source for textures.txt
+[2.100s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_5.png
+[2.100s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_4.png
+[2.100s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_3.png
+[2.101s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_1.png
+[2.101s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/fiducials/aruco_2.png
+[2.101s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_lf.jpg
+[2.101s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/License and source for textures.txt
+[2.101s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0046_01.jpg
+[2.106s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0076_03_s.jpg
+[2.107s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_bk.jpg
+[2.108s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/soil_sand_0045_01.jpg
+[2.111s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_rt.jpg
+[2.112s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds.jpg
+[2.112s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0093_01.jpg
+[2.118s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_fr.jpg
+[2.118s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_dn.jpg
+[2.118s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/clouds_up.jpg
+[2.119s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/water_water_0051_01.jpg
+[2.123s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/textures/wave_normals.dds
+[2.123s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts
+[2.123s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/fiducials.material
+[2.124s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/water.material
+[2.124s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/waves.material
+[2.124s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/scripts/sand.material
+[2.124s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/programs
+[2.124s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/programs/SimpleWaves.vert
+[2.124s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/media/materials/programs/SimpleWaves.frag
+[2.125s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds
+[2.125s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/mangalia_manipulation.world
+[2.125s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/ocean_waves.world
+[2.125s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/munkholmen.world
+[2.125s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/subsea_bop_panel.world
+[2.125s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/auv_underwater_world.world
+[2.126s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/herkules_ship_wreck.world
+[2.126s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/empty_underwater.world
+[2.126s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/lake.world
+[2.126s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/underwater_heightmap.world
+[2.126s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/worlds/mangalia.world
+[2.126s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models
+[2.127s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/april_tag_36_11_00000
+[2.127s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.sdf
+[2.127s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.config
+[2.127s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab
+[2.127s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/model.sdf
+[2.127s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/model.config
+[2.128s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/meshes
+[2.128s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/hot_stab/meshes/HotStab.dae
+[2.129s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static
+[2.129s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/model.sdf
+[2.129s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/model.config
+[2.129s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/meshes
+[2.129s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/meshes/aurora.dae
+[2.132s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/aurora_static/meshes/aurora_collision.stl
+[2.134s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck
+[2.134s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/model.sdf
+[2.134s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/model.config
+[2.134s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/meshes
+[2.134s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_ship_wreck/meshes/herkules.dae
+[2.141s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean_box
+[2.141s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean_box/model.sdf
+[2.141s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean_box/model.config
+[2.142s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen
+[2.142s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/model.sdf
+[2.142s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/model.config
+[2.142s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/meshes
+[2.142s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen/meshes/munkholmen.dae
+[2.143s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake
+[2.143s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/model.sdf
+[2.143s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/model.config
+[2.143s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/meshes
+[2.143s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/meshes/WaterSurface.dae
+[2.143s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/lake/meshes/LakeBottom.dae
+[2.145s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree
+[2.146s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/model.sdf
+[2.146s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/model.config
+[2.146s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/meshes
+[2.146s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/tree/meshes/Tree.dae
+[2.149s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel
+[2.149s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/model.sdf
+[2.149s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/model.config
+[2.149s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes
+[2.149s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.obj
+[2.168s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.stl
+[2.179s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/Valve.dae
+[2.180s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.mtl
+[2.180s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed
+[2.180s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/model.sdf
+[2.180s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/model.config
+[2.180s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/meshes
+[2.181s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/herkules_seabed/meshes/herkules_seabed.dae
+[2.181s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia
+[2.181s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/model.sdf
+[2.181s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/model.config
+[2.182s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes
+[2.182s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/License and source for textures.txt
+[2.182s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.blend
+[2.183s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.dae
+[2.184s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/grass_grass_0101_02_tiled_s.jpg
+[2.189s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/MangaliaTerrain.dae
+[2.189s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/mangalia/meshes/ground_stone_ground_0029_02_tiled_s.jpg
+[2.191s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_bottom
+[2.191s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_bottom/model.sdf
+[2.191s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_bottom/model.config
+[2.191s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean
+[2.191s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean/model.sdf
+[2.192s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ocean/model.config
+[2.192s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ned_frame
+[2.192s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ned_frame/model.sdf
+[2.192s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/ned_frame/model.config
+[2.193s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool
+[2.193s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/model.sdf
+[2.193s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/model.config
+[2.193s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/meshes
+[2.193s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/t_bar_fork_tool/meshes/TBarForkTool.dae
+[2.193s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/umbilical
+[2.194s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/umbilical/model.sdf
+[2.194s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/umbilical/model.config
+[2.194s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel
+[2.194s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/model.sdf
+[2.194s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/model.config
+[2.195s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes
+[2.195s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/License and source texture.txt
+[2.195s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/metal_bare_0045_01.jpg
+[2.200s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/SmallValve.dae
+[2.200s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/Valve.dae
+[2.200s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/rov_bop_panel/meshes/BOP_Panel.dae
+[2.201s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap
+[2.201s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/model.sdf
+[2.201s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/model.config
+[2.201s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes
+[2.201s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes/License and source for textures.txt
+[2.202s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes/soil_sand_0045_01.jpg
+[2.206s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sand_heightmap/meshes/heightmap.dae
+[2.211s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool
+[2.211s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/model.sdf
+[2.211s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/model.config
+[2.211s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/meshes
+[2.212s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/torque_tool/meshes/TorqueTool.dae
+[2.212s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed
+[2.212s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/model.sdf
+[2.212s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/model.config
+[2.212s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/meshes
+[2.213s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/munkholmen_seabed/meshes/seabed.dae
+[2.213s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_surface
+[2.213s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_surface/model.sdf
+[2.213s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/models/sea_surface/model.config
+[2.214s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/uuv_gazebo_worlds
+[2.214s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/ament_index/resource_index/parent_prefix_path/uuv_gazebo_worlds
+[2.214s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/ament_prefix_path.sh
+[2.214s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/ament_prefix_path.dsv
+[2.215s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/path.sh
+[2.215s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/environment/path.dsv
+[2.215s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.bash
+[2.216s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.sh
+[2.216s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.zsh
+[2.216s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/local_setup.dsv
+[2.216s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/package.dsv
+[2.217s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/ament_index/resource_index/packages/uuv_gazebo_worlds
+[2.217s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/cmake/uuv_gazebo_worldsConfig.cmake
+[2.217s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/cmake/uuv_gazebo_worldsConfig-version.cmake
+[2.217s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_gazebo_worlds/share/uuv_gazebo_worlds/package.xml
+[2.224s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_gazebo_worlds
