@@ -1,4 +1,0 @@
-Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world -- -j4 -l4
-Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world -- -j4 -l4
-Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world
-Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world

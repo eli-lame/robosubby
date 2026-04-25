@@ -1,0 +1,6 @@
+{
+  "package_name": "rexrov_interfaces",
+  "non_idl_tuples": [
+    "/home/osansubuntumachine/ros2_ws/src/rexrov_interfaces:msg/GateDetection.msg"
+  ]
+}

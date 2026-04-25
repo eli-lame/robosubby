@@ -1,0 +1,52 @@
+[0.030s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_tutorials/uuv_tutorial_seabed_world -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.148s] -- The CXX compiler identification is GNU 9.4.0
+[0.152s] -- Check for working C compiler: /usr/bin/cc
+[0.216s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.216s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.301s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.407s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.489s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.508s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.509s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.711s] -- Configuring done
+[0.714s] -- Generating done
+[0.715s] -- Build files have been written to: /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world
+[0.721s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_tutorials/uuv_tutorial_seabed_world -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world
+[0.722s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world -- -j4 -l4
+[0.760s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world -- -j4 -l4
+[0.760s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world
+[0.769s] -- Install configuration: ""
+[0.769s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/launch
+[0.770s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/launch/tutorial_seabed_world.launch
+[0.776s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/worlds
+[0.777s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/worlds/example_underwater.world
+[0.778s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/models
+[0.778s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/models/tutorial_seabed
+[0.778s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/models/tutorial_seabed/model.sdf
+[0.779s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/models/tutorial_seabed/model.config
+[0.780s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/models/tutorial_seabed/meshes
+[0.781s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/models/tutorial_seabed/meshes/seabed.stl
+[0.821s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/ament_index/resource_index/package_run_dependencies/uuv_tutorial_seabed_world
+[0.821s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/ament_index/resource_index/parent_prefix_path/uuv_tutorial_seabed_world
+[0.821s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/environment/ament_prefix_path.sh
+[0.822s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/environment/ament_prefix_path.dsv
+[0.822s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/environment/path.sh
+[0.822s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/environment/path.dsv
+[0.823s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/local_setup.bash
+[0.823s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/local_setup.sh
+[0.823s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/local_setup.zsh
+[0.823s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/local_setup.dsv
+[0.824s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/package.dsv
+[0.824s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/ament_index/resource_index/packages/uuv_tutorial_seabed_world
+[0.824s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/cmake/uuv_tutorial_seabed_worldConfig.cmake
+[0.824s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/cmake/uuv_tutorial_seabed_worldConfig-version.cmake
+[0.825s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_tutorial_seabed_world/share/uuv_tutorial_seabed_world/package.xml
+[0.827s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_tutorial_seabed_world

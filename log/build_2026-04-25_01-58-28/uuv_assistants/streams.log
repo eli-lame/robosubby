@@ -1,0 +1,121 @@
+[0.058s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_assistants': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_assistants -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_assistants
+[0.403s] -- The C compiler identification is GNU 9.4.0
+[0.680s] -- The CXX compiler identification is GNU 9.4.0
+[0.680s] -- Check for working C compiler: /usr/bin/cc
+[1.175s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.176s] -- Detecting C compiler ABI info
+[1.666s] -- Detecting C compiler ABI info - done
+[1.676s] -- Detecting C compile features
+[1.676s] -- Detecting C compile features - done
+[1.701s] -- Check for working CXX compiler: /usr/bin/c++
+[2.263s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.263s] -- Detecting CXX compiler ABI info
+[2.815s] -- Detecting CXX compiler ABI info - done
+[2.873s] -- Detecting CXX compile features
+[2.873s] -- Detecting CXX compile features - done
+[2.883s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.036s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.272s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.814s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.910s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.842s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.161s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.165s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.168s] -- Looking for pthread.h
+[6.708s] -- Looking for pthread.h - found
+[6.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.060s] -- Looking for pthread_create in pthreads
+[7.422s] -- Looking for pthread_create in pthreads - not found
+[7.422s] -- Looking for pthread_create in pthread
+[7.958s] -- Looking for pthread_create in pthread - found
+[7.960s] -- Found Threads: TRUE  
+[9.944s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[9.982s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[10.009s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[10.097s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[10.370s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[10.913s] -- Configuring done
+[10.982s] -- Generating done
+[11.006s] -- Build files have been written to: /home/osansubuntumachine/ros2_ws/build/uuv_assistants
+[11.022s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_assistants' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_assistants -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_assistants
+[11.027s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_assistants': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_assistants -- -j4 -l4
+[11.319s] [35m[1mScanning dependencies of target uuv_message_to_tf[0m
+[11.542s] [ 50%] [32mBuilding CXX object CMakeFiles/uuv_message_to_tf.dir/src/message_to_tf.cpp.o[0m
+[30.183s] [100%] [32m[1mLinking CXX executable uuv_message_to_tf[0m
+[31.292s] [100%] Built target uuv_message_to_tf
+[31.357s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_assistants' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_assistants -- -j4 -l4
+[31.359s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_assistants': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_assistants
+[31.393s] -- Install configuration: ""
+[31.393s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/environment/pythonpath.sh
+[31.394s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/environment/pythonpath.dsv
+[31.394s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages/tf_quaternion
+[31.394s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages/tf_quaternion/transformations.py
+[31.414s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages/tf_quaternion/__init__.py
+[31.496s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages/tf_quaternion'...
+[31.496s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages/tf_quaternion/__init__.py'...
+[31.496s] Compiling '/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages/tf_quaternion/transformations.py'...
+[31.500s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch
+[31.500s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_vehicle_footprint.launch
+[31.500s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch/unpause_simulation.launch
+[31.500s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_world_ned_frame.launch
+[31.501s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_body_sname.launch
+[31.501s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch/message_to_tf.launch
+[31.501s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch/publish_footprints.launch
+[31.501s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/launch/set_simulation_timer.launch
+[31.502s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates
+[31.502s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control
+[31.502s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/vel_pid_control.yaml
+[31.502s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/position_hold_launch.xml
+[31.502s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/thruster_manager.yaml
+[31.502s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/pos_pid_control.yaml
+[31.502s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/inertial.yaml
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/thruster_manager_launch.xml
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/control/TAM.yaml
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/launch/upload.launch.template
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/base.xacro.template
+[31.503s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/gazebo.xacro.template
+[31.504s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/sensors.xacro.template
+[31.504s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/actuators.xacro.template
+[31.504s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/urdf/snippets.xacro.template
+[31.504s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/robots
+[31.504s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/robots/default.xacro.template
+[31.504s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/meshes
+[31.504s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/robot_model/meshes/README.md
+[31.505s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config
+[31.505s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/config
+[31.505s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/config/thruster_manager.yaml.template
+[31.505s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch
+[31.505s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/templates/thruster_manager_config/launch/start_thruster_manager.launch.template
+[31.508s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/uuv_message_to_tf
+[31.514s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/uuv_message_to_tf" to ""
+[31.514s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/publish_footprints.py
+[31.515s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/set_simulation_timer.py
+[31.515s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/publish_world_models.py
+[31.516s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/publish_vehicle_footprint.py
+[31.516s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/unpause_simulation.py
+[31.516s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/create_new_robot_model
+[31.517s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/create_thruster_manager_configuration
+[31.517s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/uuv_assistants/create_control_package
+[31.517s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/ament_index/resource_index/package_run_dependencies/uuv_assistants
+[31.522s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/ament_index/resource_index/parent_prefix_path/uuv_assistants
+[31.522s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/environment/ament_prefix_path.sh
+[31.522s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/environment/ament_prefix_path.dsv
+[31.523s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/environment/path.sh
+[31.523s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/environment/path.dsv
+[31.523s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/local_setup.bash
+[31.523s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/local_setup.sh
+[31.523s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/local_setup.zsh
+[31.523s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/local_setup.dsv
+[31.524s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/package.dsv
+[31.524s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/ament_index/resource_index/packages/uuv_assistants
+[31.524s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/cmake/uuv_assistantsConfig.cmake
+[31.524s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/cmake/uuv_assistantsConfig-version.cmake
+[31.524s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_assistants/share/uuv_assistants/package.xml
+[31.527s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_assistants' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_assistants

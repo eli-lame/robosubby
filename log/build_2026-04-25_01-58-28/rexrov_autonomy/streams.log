@@ -1,0 +1,52 @@
+[0.685s] Invoking command in '/home/osansubuntumachine/ros2_ws/src/rexrov_autonomy': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rexrov_autonomy build --build-base /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build install --record /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/install.log --install-scripts $base/lib/rexrov_autonomy --single-version-externally-managed install_data
+[0.852s] running egg_info
+[0.853s] creating ../../build/rexrov_autonomy/rexrov_autonomy.egg-info
+[0.853s] writing ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/dependency_links.txt
+[0.854s] writing entry points to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/entry_points.txt
+[0.854s] writing requirements to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/top_level.txt
+[0.862s] writing manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+[0.884s] reading manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+[0.884s] writing manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+[0.885s] running build
+[0.885s] running build_py
+[0.885s] creating /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build
+[0.886s] creating /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib
+[0.886s] creating /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[0.886s] copying rexrov_autonomy/perception_node.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[0.889s] copying rexrov_autonomy/near_gate_detector.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[0.891s] copying rexrov_autonomy/autonomous_reset.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[0.891s] copying rexrov_autonomy/__init__.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[0.892s] copying rexrov_autonomy/autopath.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[0.892s] copying rexrov_autonomy/autonomous_node.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+[0.893s] running install
+[0.894s] running install_lib
+[0.895s] creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[0.895s] copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/perception_node.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[0.895s] copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/near_gate_detector.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[0.896s] copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/autonomous_reset.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[0.896s] copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/__init__.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[0.897s] copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/autopath.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[0.897s] copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/autonomous_node.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+[0.897s] byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/perception_node.py to perception_node.cpython-38.pyc
+[0.899s] byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/near_gate_detector.py to near_gate_detector.cpython-38.pyc
+[0.899s] byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/autonomous_reset.py to autonomous_reset.cpython-38.pyc
+[0.900s] byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/__init__.py to __init__.cpython-38.pyc
+[0.900s] byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/autopath.py to autopath.cpython-38.pyc
+[0.901s] byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/autonomous_node.py to autonomous_node.cpython-38.pyc
+[0.902s] running install_data
+[0.902s] creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index
+[0.902s] creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index/resource_index
+[0.902s] creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index/resource_index/packages
+[0.902s] copying resource/rexrov_autonomy -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index/resource_index/packages
+[0.903s] copying package.xml -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/rexrov_autonomy
+[0.903s] running install_egg_info
+[0.904s] Copying ../../build/rexrov_autonomy/rexrov_autonomy.egg-info to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy-0.0.0-py3.8.egg-info
+[0.907s] running install_scripts
+[0.920s] Installing autonomous_node script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+[0.921s] Installing autonomous_reset script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+[0.921s] Installing autopath script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+[0.921s] Installing near_gate_detector script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+[0.922s] writing list of installed files to '/home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/install.log'
+[0.940s] Invoked command in '/home/osansubuntumachine/ros2_ws/src/rexrov_autonomy' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rexrov_autonomy build --build-base /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build install --record /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/install.log --install-scripts $base/lib/rexrov_autonomy --single-version-externally-managed install_data

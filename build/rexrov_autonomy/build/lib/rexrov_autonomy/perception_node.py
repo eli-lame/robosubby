@@ -1,9 +1,7 @@
 import rclpy
 from rclpy.node import Node
-
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
-
 import cv2
 import numpy as np
 
@@ -11,6 +9,7 @@ import numpy as np
 class PerceptionNode(Node):
     def __init__(self):
         super().__init__('perception_node')
+
         self.bridge = CvBridge()
 
         self.sub = self.create_subscription(
@@ -20,9 +19,9 @@ class PerceptionNode(Node):
             10
         )
 
-        # --- simple tuning constant (you will adjust this once) ---
-        self.FOCAL_LENGTH = 600  # approximate camera focal length in pixels
-        self.GATE_REAL_WIDTH = 1.0  # meters (CHANGE if your gate differs)
+        # ---- ASSUMPTIONS (tune later) ----
+        self.GATE_HEIGHT_METERS = 2.0
+        self.FOV_DEG = 90.0
 
     def cb(self, msg):
         frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
@@ -30,11 +29,18 @@ class PerceptionNode(Node):
         h, w, _ = frame.shape
         cx = w // 2
 
+        # focal length in pixels (pinhole approx)
+        f = w / (2 * np.tan(np.deg2rad(self.FOV_DEG / 2)))
+
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-        # red mask
-        mask = cv2.inRange(hsv, (0, 120, 120), (10, 255, 255)) | \
-               cv2.inRange(hsv, (170, 120, 120), (180, 255, 255))
+        lower1 = np.array([0, 120, 120])
+        upper1 = np.array([10, 255, 255])
+
+        lower2 = np.array([170, 120, 120])
+        upper2 = np.array([180, 255, 255])
+
+        mask = cv2.inRange(hsv, lower1, upper1) | cv2.inRange(hsv, lower2, upper2)
 
         mask = cv2.medianBlur(mask, 5)
 
@@ -43,51 +49,27 @@ class PerceptionNode(Node):
         detected = False
         error_x = 0.0
         distance_m = 0.0
-        gate_center = cx
 
         if contours:
             largest = max(contours, key=cv2.contourArea)
-            area = cv2.contourArea(largest)
 
-            if area > 100:
+            if cv2.contourArea(largest) > 100:
                 x, y, bw, bh = cv2.boundingRect(largest)
 
-                # -------------------------
-                # CENTER ERROR
-                # -------------------------
+                # center error
                 obj_x = x + bw // 2
                 error_x = (obj_x - cx) / cx
 
-                gate_center = obj_x
-
-                # -------------------------
-                # DISTANCE (meters estimate)
-                # pinhole camera model:
-                # distance = (real_width * focal_length) / pixel_width
-                # -------------------------
-                if bw > 0:
-                    distance_m = (self.GATE_REAL_WIDTH * self.FOCAL_LENGTH) / bw
+                # ---- REAL DISTANCE ESTIMATE ----
+                if bh > 0:
+                    distance_m = (self.GATE_HEIGHT_METERS * f) / bh
 
                 detected = True
 
                 cv2.rectangle(frame, (x, y), (x + bw, y + bh), (0, 255, 0), 2)
+                cv2.circle(frame, (obj_x, y + bh // 2), 5, (0, 0, 255), -1)
 
-        # -------------------------
-        # VISUALIZATION
-        # -------------------------
-        cv2.line(frame, (cx, 0), (cx, h), (0, 0, 255), 2)
-        cv2.line(frame, (int(gate_center), 0), (int(gate_center), h), (255, 0, 0), 2)
-
-        cv2.putText(frame, f"detected: {detected}", (10, 30),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-
-        cv2.putText(frame, f"error_x: {error_x:.2f}", (10, 60),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-
-        cv2.putText(frame, f"distance(m): {distance_m:.2f}", (10, 90),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-
-        print(f"detected: {detected} | error_x: {error_x:.3f} | distance: {distance_m:.2f} m")
+        print(f"detected: {detected} | error_x: {error_x:.3f} | distance_m: {distance_m:.2f}")
 
         cv2.imshow("perception", frame)
         cv2.imshow("mask", mask)

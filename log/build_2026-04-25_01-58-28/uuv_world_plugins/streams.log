@@ -1,0 +1,130 @@
+[0.016s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_world_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_plugins -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_world_plugins
+[0.097s] -- The C compiler identification is GNU 9.4.0
+[0.145s] -- The CXX compiler identification is GNU 9.4.0
+[0.148s] -- Check for working C compiler: /usr/bin/cc
+[0.228s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.228s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.313s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.437s] -- Detecting CXX compiler ABI info
+[0.536s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Detecting CXX compile features
+[0.542s] -- Detecting CXX compile features - done
+[0.544s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[0.552s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.552s] -- Checking for module 'bullet>=2.82'
+[0.576s] --   Found bullet, version 2.88
+[0.691s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.764s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.841s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.856s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.229s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.249s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.249s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.254s] -- Searching for dependencies of ignition-math6
+[1.256s] -- Looking for OGRE...
+[1.256s] -- OGRE_PREFIX_WATCH changed.
+[1.262s] -- Checking for module 'OGRE'
+[1.274s] --   Found OGRE, version 1.9.0
+[1.357s] -- Found Ogre Ghadamon (1.9.0)
+[1.357s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.361s] -- Looking for OGRE_Paging...
+[1.366s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.366s] -- Looking for OGRE_Terrain...
+[1.380s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.380s] -- Looking for OGRE_Property...
+[1.384s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.384s] -- Looking for OGRE_RTShaderSystem...
+[1.387s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.387s] -- Looking for OGRE_Volume...
+[1.391s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.391s] -- Looking for OGRE_Overlay...
+[1.395s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.483s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.484s] -- Looking for ignition-transport8 -- found version 8.5.1
+[1.485s] -- Searching for dependencies of ignition-transport8
+[1.525s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.529s] -- Checking for module 'libzmq >= 4'
+[1.559s] --   Found libzmq , version 4.3.2
+[1.587s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.594s] -- Checking for module 'uuid'
+[1.607s] --   Found uuid, version 2.34.0
+[1.648s] -- Found UUID: TRUE  
+[1.649s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[1.649s] -- Searching for dependencies of ignition-msgs5
+[1.664s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.669s] -- Checking for module 'tinyxml2'
+[1.682s] --   Found tinyxml2, version 6.2.0
+[1.720s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[1.721s] -- Looking for ignition-common3 -- found version 3.17.1
+[1.721s] -- Searching for dependencies of ignition-common3
+[1.721s] -- Looking for dlfcn.h - found
+[1.722s] -- Looking for libdl - found
+[1.723s] -- Found DL: TRUE  
+[1.730s] -- Searching for <ignition-common3> component [graphics]
+[1.732s] -- Looking for ignition-common3-graphics -- found version 3.17.1
+[1.733s] -- Searching for dependencies of ignition-common3-graphics
+[1.733s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.736s] -- Looking for ignition-fuel_tools4 -- found version 4.9.2
+[1.736s] -- Searching for dependencies of ignition-fuel_tools4
+[1.807s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.822s] -- Checking for module 'jsoncpp'
+[1.838s] --   Found jsoncpp, version 1.7.4
+[1.877s] -- Found JSONCPP: TRUE  
+[1.884s] -- Checking for module 'libzip'
+[1.900s] --   Found libzip, version 1.5.1
+[1.942s] -- Found ZIP: TRUE  
+[1.943s] -- Looking for ignition-common3 -- found version 3.17.1
+[1.943s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.943s] -- Looking for ignition-msgs5 -- found version 5.11.1
+[1.944s] -- Gazebo version: 11.15
+[1.946s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.965s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.966s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.162s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.238s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.256s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.648s] -- Configuring done
+[2.669s] -- Generating done
+[2.674s] -- Build files have been written to: /home/osansubuntumachine/ros2_ws/build/uuv_world_plugins
+[2.684s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_world_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/Plankton/uuv_world_plugins/uuv_world_plugins -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/uuv_world_plugins
+[2.685s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_world_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_world_plugins -- -j4 -l4
+[2.726s] [35m[1mScanning dependencies of target uuv_underwater_current_plugin[0m
+[2.872s] [ 33%] [32mBuilding CXX object CMakeFiles/uuv_underwater_current_plugin.dir/src/UnderwaterCurrentPlugin.cpp.o[0m
+[10.616s] [ 66%] [32mBuilding CXX object CMakeFiles/uuv_underwater_current_plugin.dir/src/GaussMarkovProcess.cpp.o[0m
+[15.808s] [100%] [32m[1mLinking CXX shared library libuuv_underwater_current_plugin.so[0m
+[16.142s] [100%] Built target uuv_underwater_current_plugin
+[16.151s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_world_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_world_plugins -- -j4 -l4
+[16.154s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_world_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_world_plugins
+[16.161s] -- Install configuration: ""
+[16.161s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/lib/libuuv_underwater_current_plugin.so
+[16.164s] -- Set runtime path of "/home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/lib/libuuv_underwater_current_plugin.so" to ""
+[16.164s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/include/uuv_world_plugins
+[16.164s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.h
+[16.164s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/include/uuv_world_plugins/UnderwaterCurrentPlugin.h
+[16.164s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/library_path.sh
+[16.164s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/library_path.dsv
+[16.170s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/ament_index/resource_index/package_run_dependencies/uuv_world_plugins
+[16.170s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/ament_index/resource_index/parent_prefix_path/uuv_world_plugins
+[16.170s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/ament_prefix_path.sh
+[16.170s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/ament_prefix_path.dsv
+[16.170s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/path.sh
+[16.170s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/environment/path.dsv
+[16.172s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.bash
+[16.172s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.sh
+[16.172s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.zsh
+[16.172s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/local_setup.dsv
+[16.172s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/package.dsv
+[16.172s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/ament_index/resource_index/packages/uuv_world_plugins
+[16.172s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.173s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.173s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[16.173s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/uuv_world_pluginsConfig.cmake
+[16.173s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/cmake/uuv_world_pluginsConfig-version.cmake
+[16.173s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_world_plugins/share/uuv_world_plugins/package.xml
+[16.175s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_world_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_world_plugins

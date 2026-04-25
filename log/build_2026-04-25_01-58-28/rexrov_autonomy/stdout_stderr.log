@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/rexrov_autonomy/rexrov_autonomy.egg-info
+writing ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/PKG-INFO
+writing dependency_links to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/dependency_links.txt
+writing entry points to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/entry_points.txt
+writing requirements to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/requires.txt
+writing top-level names to ../../build/rexrov_autonomy/rexrov_autonomy.egg-info/top_level.txt
+writing manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+reading manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+writing manifest file '../../build/rexrov_autonomy/rexrov_autonomy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build
+creating /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib
+creating /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+copying rexrov_autonomy/perception_node.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+copying rexrov_autonomy/near_gate_detector.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+copying rexrov_autonomy/autonomous_reset.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+copying rexrov_autonomy/__init__.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+copying rexrov_autonomy/autopath.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+copying rexrov_autonomy/autonomous_node.py -> /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy
+running install
+running install_lib
+creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/perception_node.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/near_gate_detector.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/autonomous_reset.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/__init__.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/autopath.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+copying /home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/build/lib/rexrov_autonomy/autonomous_node.py -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy
+byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/perception_node.py to perception_node.cpython-38.pyc
+byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/near_gate_detector.py to near_gate_detector.cpython-38.pyc
+byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/autonomous_reset.py to autonomous_reset.cpython-38.pyc
+byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/autopath.py to autopath.cpython-38.pyc
+byte-compiling /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy/autonomous_node.py to autonomous_node.cpython-38.pyc
+running install_data
+creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index
+creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index/resource_index
+creating /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index/resource_index/packages
+copying resource/rexrov_autonomy -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/ament_index/resource_index/packages
+copying package.xml -> /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/share/rexrov_autonomy
+running install_egg_info
+Copying ../../build/rexrov_autonomy/rexrov_autonomy.egg-info to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/python3.8/site-packages/rexrov_autonomy-0.0.0-py3.8.egg-info
+running install_scripts
+Installing autonomous_node script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+Installing autonomous_reset script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+Installing autopath script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+Installing near_gate_detector script to /home/osansubuntumachine/ros2_ws/install/rexrov_autonomy/lib/rexrov_autonomy
+writing list of installed files to '/home/osansubuntumachine/ros2_ws/build/rexrov_autonomy/install.log'
