@@ -1,0 +1,106 @@
+[0.303s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control -- -j4 -l4
+[0.541s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control -- -j4 -l4
+[0.545s] Invoking command in '/home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control
+[0.626s] -- Install configuration: ""
+[0.626s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/pythonpath.sh
+[0.626s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/pythonpath.dsv
+[0.626s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces
+[0.626s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces/sym_vehicle.py
+[0.626s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces/dp_pid_controller_base.py
+[0.627s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces/dp_controller_local_planner.py
+[0.627s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces/dp_controller_base.py
+[0.627s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces/__init__.py
+[0.627s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces/_log.py
+[0.627s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces/vehicle.py
+[0.741s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_control_interfaces'...
+[0.764s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator
+[0.764s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator
+[0.764s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/line_segment.py
+[0.764s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/cs_interpolator.py
+[0.764s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/linear_interpolator.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/bezier_curve.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/path_generator.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/lipb_interpolator.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/__init__.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/helical_segment.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator/dubins_interpolator.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/__init__.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/_log.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/trajectory_generator.py
+[0.765s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/wp_trajectory_generator.py
+[0.766s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/trajectory_point.py
+[0.921s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator'...
+[0.921s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator/path_generator'...
+[0.957s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_waypoints
+[0.957s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_waypoints/waypoint_set.py
+[0.957s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_waypoints/__init__.py
+[0.957s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_waypoints/waypoint.py
+[1.074s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_waypoints'...
+[1.088s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator
+[1.088s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/line_segment.py
+[1.088s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/cs_interpolator.py
+[1.089s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/linear_interpolator.py
+[1.089s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/bezier_curve.py
+[1.089s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/path_generator.py
+[1.089s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/lipb_interpolator.py
+[1.089s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/__init__.py
+[1.089s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/helical_segment.py
+[1.089s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator/dubins_interpolator.py
+[1.200s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/uuv_trajectory_generator.path_generator'...
+[1.219s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/utils
+[1.219s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/utils/__init__.py
+[1.219s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/utils/transform.py
+[1.441s] Listing '/home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/python3.8/site-packages/utils'...
+[1.457s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_nl_pid_controller.py
+[1.457s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_mb_sm_controller.py
+[1.457s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_nmb_sm_controller.py
+[1.457s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_pid_controller.py
+[1.457s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_ua_pid_controller.py
+[1.457s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_mb_fl_controller.py
+[1.457s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/auv_geometric_tracking_controller.py
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/demo_wp_trajectory_generator.py
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_pd_grav_compensation_controller.py
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/lib/uuv_trajectory_control/rov_sf_controller.py
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_nmb_sm_controller.launch
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_pd_grav_compensation_controller.launch
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_sf_controller.launch
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_ua_pid_controller.launch
+[1.458s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_pid_controller.launch
+[1.459s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/auv_geometric_tracking_controller.launch
+[1.459s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_mb_fl_controller.launch
+[1.459s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_nl_pid_controller.launch
+[1.459s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/launch/rov_mb_sm_controller.launch
+[1.459s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config
+[1.459s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/models
+[1.459s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/models/rexrov
+[1.460s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/models/rexrov/params.yaml
+[1.460s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers
+[1.460s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/pid
+[1.460s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/pid/rexrov
+[1.460s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/pid/rexrov/params.yaml
+[1.460s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/mb_sm
+[1.460s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/mb_sm/rexrov
+[1.461s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/mb_sm/rexrov/params.yaml
+[1.461s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nmb_sm
+[1.461s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nmb_sm/rexrov
+[1.461s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nmb_sm/rexrov/params.yaml
+[1.461s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nl_pid
+[1.461s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nl_pid/rexrov
+[1.461s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/config/controllers/nl_pid/rexrov/params.yaml
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/ament_index/resource_index/package_run_dependencies/uuv_trajectory_control
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/ament_index/resource_index/parent_prefix_path/uuv_trajectory_control
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/ament_prefix_path.sh
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/ament_prefix_path.dsv
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/path.sh
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/environment/path.dsv
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.bash
+[1.462s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.sh
+[1.463s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.zsh
+[1.468s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/local_setup.dsv
+[1.468s] -- Installing: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/package.dsv
+[1.468s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/ament_index/resource_index/packages/uuv_trajectory_control
+[1.469s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/cmake/uuv_trajectory_controlConfig.cmake
+[1.469s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/cmake/uuv_trajectory_controlConfig-version.cmake
+[1.469s] -- Up-to-date: /home/osansubuntumachine/ros2_ws/install/uuv_trajectory_control/share/uuv_trajectory_control/package.xml
+[1.485s] Invoked command in '/home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control' returned '0': AMENT_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs:/home/osansubuntumachine/ros2_ws/install/plankton_utils:/opt/ros/foxy LD_LIBRARY_PATH=/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/osansubuntumachine/ros2_ws/install/uuv_assistants/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/uuv_control_msgs/lib/python3.8/site-packages:/home/osansubuntumachine/ros2_ws/install/plankton_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/uuv_trajectory_control

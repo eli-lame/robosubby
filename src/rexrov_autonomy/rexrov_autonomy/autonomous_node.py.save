@@ -1,0 +1,163 @@
+
+Paste the following code
+
+```python
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+
+class RexrovAutonomy(Node):
+    def __init__(self):
+        super().__init__('rexrov_autonomy')
+
+        self.publisher = self.create_publisher(
+            Twist,
+            '/rexrov/cmd_vel',
+            10
+        )
+
+        self.timer = self.create_timer(0.1, self.control_loop)
+        self.time = 0
+
+    def control_loop(self):
+        msg = Twist()
+
+        # Simple behavior: move forward for 5 seconds, then turn
+        if self.time < 50:
+            msg.linear.x = 1.0  # forward
+        elif self.time < 100:
+            msg.angular.z = 0.5  # turn
+        else:
+            msg.linear.x = 0.0
+            msg.angular.z = 0.0
+
+        self.publisher.publish(msg)
+
+        self.time += 1
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = RexrovAutonomy()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+```
+
+Ctrl+x 
+
+Y
+
+Enter
+
+```
+cd ~/ros2_ws/src/rexrov_autonomy
+nano setup.py
+```
+
+Add the following to setup.py
+
+```python
+entry_points={
+    'console_scripts': [
+        'autonomous_node = rexrov_autonomy.autonomous_node:main',
+    ],
+},
+```
+
+Ctrl+x 
+
+Y
+
+Enter
+
+Build the Workspace
+
+```
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
+```
+
+# Running the Node in Plankton
+
+*re-source all terminals before running anything*
+
+```
+source /opt/ros/foxy/setup.bash
+source $HOME/ros2_ws/install/setup.bash
+source /usr/share/gazebo/setup.sh
+```
+
+```
+**Terminal 1:**
+ros2 launch uuv_gazebo_worlds ocean_waves.launch
+
+**Terminal 2 (open new terminal):**
+ros2 launch uuv_descriptions upload_rexrov.launch mode:=default x:=0 y:=0 z:=-20 namespace:=rexrov
+or 
+ros2 launch uuv_descriptions upload_rexrov.launch mode:=default x:=0 y:=0 z:=-5 namespace:=rexrov
+
+**Terminal 3 (open new terminal):**
+	ros2 launch uuv_control_cascaded_pid joy_velocity.launch uuv_name:=rexrov model_name:=rexrov joy_id:=0
+
+**Terminal 4 (open new terminal):**
+ros2 run rexrov_autonomy autonomous_node
+```
+
+**aye you lowkey gotta rebuild if you make changes to the node:**
+
+cd ~/ros2_ws
+
+colcon build
+
+source ~/ros2_ws/install/setup.bash#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+
+class RexrovAutonomy(Node):
+    def __init__(self):
+        super().__init__('rexrov_autonomy')
+
+        self.publisher = self.create_publisher(
+            Twist,
+            '/rexrov/cmd_vel',
+            10
+        )
+
+        self.timer = self.create_timer(0.1, self.control_loop)
+        self.time = 0
+
+    def control_loop(self):
+        msg = Twist()
+
+        # Simple behavior: move down for 5 seconds, then turn
+        if self.time < 50:
+            msg.linear.z = -1.0  # down
+        elif self.time < 100:
+            msg.angular.z = 0.5  # turn
+        else:
+            msg.linear.z = 0.0
+            msg.angular.z = 0.0
+
+        self.publisher.publish(msg)
+
+        self.time += 1
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = RexrovAutonomy()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
