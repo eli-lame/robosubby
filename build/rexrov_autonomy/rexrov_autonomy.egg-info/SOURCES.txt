@@ -13,6 +13,7 @@ rexrov_autonomy/__init__.py
 rexrov_autonomy/autonomous_node.py
 rexrov_autonomy/autonomous_reset.py
 rexrov_autonomy/autopath.py
+rexrov_autonomy/bt_gate.py
 rexrov_autonomy/near_gate_detector.py
 rexrov_autonomy/perception_node.py
 test/test_copyright.py

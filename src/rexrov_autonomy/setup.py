@@ -24,6 +24,8 @@ setup(
 		'near_gate_detector = rexrov_autonomy.autonomous_node:main',
 		'autonomous_reset = rexrov_autonomy.autonomous_reset:main',
 		'autopath = rexrov_autonomy.autopath:main',
+        'perception_node = rexrov_autonomy.perception_node:main',
+        'bt_gate = rexrov_autonomy.bt_gate:main',
         ],
     },
 )
