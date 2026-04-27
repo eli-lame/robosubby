@@ -59,7 +59,7 @@ class FindGate(py_trees.behaviour.Behaviour):
             return py_trees.common.Status.SUCCESS
 
         # spin in place
-        cmd.angular.z = 0.5
+        cmd.angular.z = 0.2
         self.node.cmd_pub.publish(cmd)
 
         print("Searching for gate...")
@@ -81,15 +81,22 @@ class AlignGate(py_trees.behaviour.Behaviour):
         if not self.data.detected:
             return py_trees.common.Status.FAILURE
 
+        # if aligned → stop turning
         if abs(self.data.error_x) < 0.08:
             cmd.angular.z = 0.0
             self.node.cmd_pub.publish(cmd)
             return py_trees.common.Status.SUCCESS
 
-        cmd.angular.z = -1.5 * self.data.error_x
+        # proportional control
+        raw_turn = -.8 * self.data.error_x
+
+        # clamp to safe range
+        max_turn = 0.3
+        cmd.angular.z = max(min(raw_turn, max_turn), -max_turn)
+
         self.node.cmd_pub.publish(cmd)
 
-        print(f"Aligning... error_x={self.data.error_x:.3f}")
+        print(f"Aligning... error_x={self.data.error_x:.3f}, turn={cmd.angular.z:.3f}")
         return py_trees.common.Status.RUNNING
 
 
