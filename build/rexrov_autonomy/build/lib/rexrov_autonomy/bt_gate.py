@@ -3,47 +3,99 @@ from rclpy.node import Node
 
 from rexrov_interfaces.msg import GateDetection
 from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
 
 import py_trees
 import time
+import math
 
 
-# -----------------------------
-# Shared Data Container
-# -----------------------------
+# ============================================================
+# SHARED DATA (BLACKBOARD STYLE)
+# ============================================================
 class GateData:
     def __init__(self):
+        # perception
         self.detected = False
         self.error_x = 0.0
         self.distance = 999.0
 
+        # odometry
+        self.x = 0.0
+        self.y = 0.0
 
-# -----------------------------
-# ROS Node (Subscriber + Publisher)
-# -----------------------------
+
+# ============================================================
+# ROS INTERFACE NODE
+# ============================================================
 class GateInterface(Node):
     def __init__(self, data):
         super().__init__('gate_interface')
         self.data = data
 
-        self.sub = self.create_subscription(
+        # perception subscriber
+        self.create_subscription(
             GateDetection,
             '/gate_detection',
-            self.cb,
+            self.gate_cb,
             10
         )
 
-        self.cmd_pub = self.create_publisher(Twist, '/rexrov/cmd_vel', 10)
+        # odometry subscriber
+        self.create_subscription(
+            Odometry,
+            '/rexrov/odom',
+            self.odom_cb,
+            10
+        )
 
-    def cb(self, msg):
+        # command publisher
+        self.cmd_pub = self.create_publisher(
+            Twist,
+            '/rexrov/cmd_vel',
+            10
+        )
+
+    def gate_cb(self, msg):
         self.data.detected = msg.detected
         self.data.error_x = msg.error_x
         self.data.distance = msg.distance
 
+    def odom_cb(self, msg):
+        self.data.x = msg.pose.pose.position.x
+        self.data.y = msg.pose.pose.position.y
 
-# -----------------------------
-# FIND GATE (SPIN SEARCH)
-# -----------------------------
+
+# ============================================================
+# DIVE
+# ============================================================
+class Dive(py_trees.behaviour.Behaviour):
+    def __init__(self, node):
+        super().__init__("Dive")
+        self.node = node
+        self.t0 = None
+
+    def initialise(self):
+        self.t0 = time.time()
+        print("[BT] Dive start")
+
+    def update(self):
+        cmd = Twist()
+        cmd.linear.z = -0.3
+        self.node.cmd_pub.publish(cmd)
+
+        if time.time() - self.t0 > 2.5:
+            cmd.linear.z = 0.0
+            self.node.cmd_pub.publish(cmd)
+            print("[BT] Dive complete")
+            return py_trees.common.Status.SUCCESS
+
+        return py_trees.common.Status.RUNNING
+
+
+# ============================================================
+# FIND GATE
+# ============================================================
 class FindGate(py_trees.behaviour.Behaviour):
     def __init__(self, data, node):
         super().__init__("FindGate")
@@ -56,19 +108,19 @@ class FindGate(py_trees.behaviour.Behaviour):
         if self.data.detected:
             cmd.angular.z = 0.0
             self.node.cmd_pub.publish(cmd)
+            print("[BT] Gate detected")
             return py_trees.common.Status.SUCCESS
 
-        # spin in place
-        cmd.angular.z = 0.2
+        cmd.angular.z = 0.2  # slow spin search
         self.node.cmd_pub.publish(cmd)
 
-        print("Searching for gate...")
+        print("[BT] Searching...")
         return py_trees.common.Status.RUNNING
 
 
-# -----------------------------
-# ALIGN GATE
-# -----------------------------
+# ============================================================
+# ALIGN GATE (smoothed control)
+# ============================================================
 class AlignGate(py_trees.behaviour.Behaviour):
     def __init__(self, data, node):
         super().__init__("AlignGate")
@@ -79,84 +131,100 @@ class AlignGate(py_trees.behaviour.Behaviour):
         cmd = Twist()
 
         if not self.data.detected:
-            return py_trees.common.Status.FAILURE
+            return py_trees.common.Status.RUNNING
 
-        # if aligned → stop turning
         if abs(self.data.error_x) < 0.08:
             cmd.angular.z = 0.0
             self.node.cmd_pub.publish(cmd)
+            print("[BT] Aligned")
             return py_trees.common.Status.SUCCESS
 
-        # proportional control
-        raw_turn = -.8 * self.data.error_x
+        # proportional + clamp (prevents overshoot)
+        turn = -0.6 * self.data.error_x
+        turn = max(min(turn, 0.25), -0.25)
 
-        # clamp to safe range
-        max_turn = 0.3
-        cmd.angular.z = max(min(raw_turn, max_turn), -max_turn)
-
+        cmd.angular.z = turn
         self.node.cmd_pub.publish(cmd)
 
-        print(f"Aligning... error_x={self.data.error_x:.3f}, turn={cmd.angular.z:.3f}")
+        print(f"[BT] Align error={self.data.error_x:.3f}")
         return py_trees.common.Status.RUNNING
 
 
-# -----------------------------
-# APPROACH GATE
-# -----------------------------
-class ApproachGate(py_trees.behaviour.Behaviour):
+# ============================================================
+# DRIVE THROUGH GATE (COMMIT + EXECUTE)
+# ============================================================
+class DriveThroughGate(py_trees.behaviour.Behaviour):
     def __init__(self, data, node):
-        super().__init__("ApproachGate")
+        super().__init__("DriveThroughGate")
         self.data = data
         self.node = node
 
-    def update(self):
-        cmd = Twist()
-
-        if not self.data.detected:
-            return py_trees.common.Status.FAILURE
-
-        if self.data.distance < 1.5:
-            cmd.linear.x = 0.0
-            self.node.cmd_pub.publish(cmd)
-            return py_trees.common.Status.SUCCESS
-
-        cmd.linear.x = 0.6
-        self.node.cmd_pub.publish(cmd)
-
-        print(f"Approaching... distance={self.data.distance:.2f}")
-        return py_trees.common.Status.RUNNING
-
-
-# -----------------------------
-# PASS GATE
-# -----------------------------
-class PassGate(py_trees.behaviour.Behaviour):
-    def __init__(self, node):
-        super().__init__("PassGate")
-        self.node = node
-        self.start_time = None
+        self.committed = False
+        self.start_x = 0.0
+        self.start_y = 0.0
+        self.target_distance = 0.0
 
     def initialise(self):
-        self.start_time = time.time()
+        self.committed = False
+        print("[BT] DriveThroughGate start")
 
     def update(self):
         cmd = Twist()
-        cmd.linear.x = 0.5
-        self.node.cmd_pub.publish(cmd)
 
-        print("Passing through gate...")
+        # ====================================================
+        # PHASE 1: APPROACH + COMMIT
+        # ====================================================
+        if not self.committed:
 
-        if time.time() - self.start_time > 3.0:
+            if not self.data.detected:
+                return py_trees.common.Status.RUNNING
+
+            if self.data.distance < 2.0:
+                self.committed = True
+
+                self.start_x = self.data.x
+                self.start_y = self.data.y
+
+                buffer = 1.5
+                max_travel = 4.0
+
+                self.target_distance = min(self.data.distance + buffer, max_travel)
+
+                print(f"[BT] COMMITTED travel={self.target_distance:.2f}")
+
+            else:
+                cmd.linear.x = 0.5
+                cmd.angular.z = -0.4 * self.data.error_x
+                self.node.cmd_pub.publish(cmd)
+
+                return py_trees.common.Status.RUNNING
+
+        # ====================================================
+        # PHASE 2: DRIVE STRAIGHT
+        # ====================================================
+        dx = self.data.x - self.start_x
+        dy = self.data.y - self.start_y
+        traveled = math.sqrt(dx*dx + dy*dy)
+
+        print(f"[BT] Travel {traveled:.2f}/{self.target_distance:.2f}")
+
+        # STOP CONDITION (robust)
+        if traveled >= self.target_distance or traveled > 4.5:
             cmd.linear.x = 0.0
             self.node.cmd_pub.publish(cmd)
+            print("[BT] Gate passed")
             return py_trees.common.Status.SUCCESS
+
+        cmd.linear.x = 0.7
+        cmd.angular.z = 0.0
+        self.node.cmd_pub.publish(cmd)
 
         return py_trees.common.Status.RUNNING
 
 
-# -----------------------------
+# ============================================================
 # MAIN
-# -----------------------------
+# ============================================================
 def main():
     rclpy.init()
 
@@ -166,13 +234,15 @@ def main():
     root = py_trees.composites.Sequence("GateMission", memory=True)
 
     root.add_children([
+        Dive(node),
         FindGate(data, node),
         AlignGate(data, node),
-        ApproachGate(data, node),
-        PassGate(node)
+        DriveThroughGate(data, node)
     ])
 
     tree = py_trees.trees.BehaviourTree(root)
+
+    print("\n===== BT STARTED =====\n")
 
     try:
         while rclpy.ok():

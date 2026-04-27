@@ -135,7 +135,7 @@
     <!-- Left pole -->
     <model name="gate_left">
       <static>true</static>
-      <pose>-5 -1 0 0 0 0</pose>
+      <pose>-5 -2 -1 0 0 0</pose>
 
       <link name="link">
         <visual name="visual">
@@ -167,7 +167,7 @@
     <!-- Right pole -->
     <model name="gate_right">
       <static>true</static>
-      <pose>-5 1 0 0 0 0</pose>
+      <pose>-5 2 -1 0 0 0</pose>
 
       <link name="link">
         <visual name="visual">
@@ -198,13 +198,13 @@
     <!-- Top bar -->
     <model name="gate_top">
       <static>true</static>
-      <pose>-5 0 1 0 0 0</pose>
+      <pose>-5 0 0 0 0 0</pose>
 
       <link name="link">
         <visual name="visual">
           <geometry>
             <box>
-              <size>0.1 2 0.1</size>
+              <size>0.1 4 0.1</size>
             </box>
           </geometry>
 
