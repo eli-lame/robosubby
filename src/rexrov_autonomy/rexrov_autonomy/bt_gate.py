@@ -111,7 +111,7 @@ class FindGate(py_trees.behaviour.Behaviour):
             print("[BT] Gate detected")
             return py_trees.common.Status.SUCCESS
 
-        cmd.angular.z = 0.2  # slow spin search
+        cmd.angular.z = 0.4  # slow spin search
         self.node.cmd_pub.publish(cmd)
 
         print("[BT] Searching...")

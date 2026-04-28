@@ -1,9 +1,0 @@
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/install/strip.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/install/local.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/install.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/list_install_components.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/rebuild_cache.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/edit_cache.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/test.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/uuv_control_cascaded_pid_uninstall.dir
-/home/osansubuntumachine/ros2_ws/build/uuv_control_cascaded_pid/CMakeFiles/uninstall.dir

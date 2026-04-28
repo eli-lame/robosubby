@@ -1,9 +1,0 @@
-{
-  "package_name": "uuv_thruster_manager",
-  "non_idl_tuples": [
-    "/home/osansubuntumachine/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/GetThrusterCurve.srv",
-    "/home/osansubuntumachine/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/ThrusterManagerInfo.srv",
-    "/home/osansubuntumachine/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/SetThrusterManagerConfig.srv",
-    "/home/osansubuntumachine/ros2_ws/src/Plankton/uuv_control/uuv_thruster_manager:srv/GetThrusterManagerConfig.srv"
-  ]
-}

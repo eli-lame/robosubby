@@ -1,6 +1,0 @@
-source;share/rexrov_autonomy/hook/pythonpath.ps1
-source;share/rexrov_autonomy/hook/pythonpath.dsv
-source;share/rexrov_autonomy/hook/pythonpath.sh
-source;share/rexrov_autonomy/hook/ament_prefix_path.ps1
-source;share/rexrov_autonomy/hook/ament_prefix_path.dsv
-source;share/rexrov_autonomy/hook/ament_prefix_path.sh

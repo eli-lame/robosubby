@@ -1,6 +1,0 @@
-Invoking command in '/home/osansubuntumachine/ros2_ws/build/rexrov_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/rexrov_interfaces -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces
-Invoked command in '/home/osansubuntumachine/ros2_ws/build/rexrov_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/osansubuntumachine/ros2_ws/src/rexrov_interfaces -DCMAKE_INSTALL_PREFIX=/home/osansubuntumachine/ros2_ws/install/rexrov_interfaces
-Invoking command in '/home/osansubuntumachine/ros2_ws/build/rexrov_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/rexrov_interfaces -- -j4 -l4
-Invoked command in '/home/osansubuntumachine/ros2_ws/build/rexrov_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/osansubuntumachine/ros2_ws/build/rexrov_interfaces -- -j4 -l4
-Invoking command in '/home/osansubuntumachine/ros2_ws/build/rexrov_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/rexrov_interfaces
-Invoked command in '/home/osansubuntumachine/ros2_ws/build/rexrov_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/osansubuntumachine/ros2_ws/build/rexrov_interfaces

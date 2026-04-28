@@ -1,4 +1,0 @@
-/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/GetThrusterCurve.idl
-/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/ThrusterManagerInfo.idl
-/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/SetThrusterManagerConfig.idl
-/home/osansubuntumachine/ros2_ws/build/uuv_thruster_manager/rosidl_adapter/uuv_thruster_manager:srv/GetThrusterManagerConfig.idl
